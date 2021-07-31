@@ -1,0 +1,36 @@
+.wrapper{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: calc(50% - 300px);
+  left:0;
+  right:0;
+  margin: 0 auto;
+  border:1px solid #084feb;
+}
+.btn{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 25%;
+}
+.btn:active {
+  color: #b6b300;
+  background: #084feb;
+}
+.btn[disabled] {
+  color: #d2d5db;
+  background: #6c7589;
+cursor:not-allowed;
+}
+.btn-danger{
+  color: #fff;
+    background-color: #dc3545;
+    font-weight: 700;
+}
+
+
+

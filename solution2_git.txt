@@ -1,0 +1,55 @@
+﻿1.Клонируем удаленный репозиторий себе на локальный компьютер командой: 
+
+git clone git@example.com:example/test.git
+
+2.Переходим в клонированный репозиторий(каталог test) командой:
+
+cd test
+
+3.Проверяем текущую ветку командой:
+
+4.git branch
+(покажет текущую-master и перечень существующих веток) 
+
+Переключаемся на ветку dev командой:
+
+5.git checkout dev
+
+6.Создаем файл с именем Readme.md командой:
+
+touch Readme.md
+
+7.Запись в файл Readme.md командой:
+
+echo "### May be in future" > Readme.md
+
+8.Проверка содержимого файла Readme.md командой:
+
+cat Readme.md
+
+9.Добавляем в GIT изменения касаемые файла Readme.md командой:
+
+git add Readme.md
+
+10.Проверка все ли изменения внесены в GIT
+
+git status
+
+11.Создаем коммит, характеризующий внесенные изменения командой:
+
+git commit -m "added Readme.md file"
+
+12.Отправляем в удаленненный репозиторий git@example.com:example/test.git ветку dev с локального компьютера все изменения ветки dev.
+(если установлен remote origin) командой:
+
+git push origin dev
+
+если нет, то привязываем путь командой:
+
+git remote add origin git@example.com:example/test.git
+
+и отправляем...
+
+git push -u origin dev
+
+

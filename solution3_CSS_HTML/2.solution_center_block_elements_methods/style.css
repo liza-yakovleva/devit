@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+/* 1 POSITION(fixed, absolute */
+.container {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.block {
+  height: 20%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(131, 190, 235);
+  text-align: center;
+  line-height: 60px;
+}
+
+/* 2  FLEX*/
+/* .wrapper {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.container {
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+}
+.block {
+  height: 20%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(131, 190, 235);
+  text-align: center;
+} */
+
+/* 3 GRID*/
+
+/* .wrapper {
+  width: 600px;
+  height: 600px;
+  border: 3px solid green;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(131, 190, 235);
+} */
+
+/* 4  :before */
+
+/* .container {
+  text-align: center;
+  outline: 1px solid red;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+}
+
+.container:before {
+  content: "";
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.block {
+  vertical-align: middle;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  outline: 1px solid blue;
+  display: inline-block;
+  line-height: 50px;
+  background-color: rgb(131, 190, 235);
+} */
